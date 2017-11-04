@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:theme="@style/AppThemeBase">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/Drawer_ripple"
+        app:mrl_rippleOverlay="false"
+        app:mrl_rippleHover="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mrl_rippleAlpha="0.6"
+        app:mrl_rippleDuration="400"
+        app:mrl_rippleFadeDuration="200"
+        app:mrl_rippleColor="#616161"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="1dp">
+
+
+
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Drawer_image"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:paddingLeft="36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:textColor="@color/primary_text"
+                android:textSize="15sp"
+                android:id="@+id/Drawer_title" />
+
+
+        </LinearLayout>
+
+</com.balysv.materialripple.MaterialRippleLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

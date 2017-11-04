@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SC_HACS</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">New Devices</string>
+    <string name="button_scan">Scan for Devices</string>
+    <string name="scanning">Scaning for devices. . .</string>
+    <string name="select_device">Select a Device</string>
+    <string name="none_found">No Devices discovered</string>
+</resources>

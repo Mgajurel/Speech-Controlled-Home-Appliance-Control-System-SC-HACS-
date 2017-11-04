@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:theme="@style/AppThemeBase">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleAlpha="0.5"
+        app:mrl_rippleColor="@color/secondary_text"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true"
+        android:clickable="true"
+        >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Large Text"
+                    android:id="@+id/pairedDeviceName"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2.5"
+                    android:shadowDy="2.5"
+                    android:shadowRadius="5"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/pairedDeviceAddress"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:shadowColor="#000"
+                    android:shadowDx="2.5"
+                    android:shadowDy="2.5"
+                    android:shadowRadius="5"/>
+
+            </LinearLayout>
+
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+</LinearLayout>
